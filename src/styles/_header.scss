@@ -1,6 +1,6 @@
 :root {
   --primary-blue: #00acdc;
-  --text-main: #000;
+  --text-main: #060b35;
   --transition-speed: 0.3s;
 }
 
@@ -10,7 +10,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 0 50px;
-  height: 60;
+  height: 60px;
 }
 
 .logo {
@@ -54,7 +54,6 @@
 .nav__link:hover {
   color: var(--primary-blue);
 }
-
 
 .nav__link.is-active {
   color: var(--primary-blue);
